@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A312C;
+    color: antiquewhite;
+    height: 75px;
+    width: 100%;
+}
+
+.right,.left{
+   padding-left: 50px;
+   padding-right: 100px;
+   font-size: 20px;
+   cursor: pointer;
+   display: flex;
+   justify-content:space-evenly ;
+   align-items: centers;
+   gap: 75px;
+
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+  background: #f5f5f5;
+}
+
+.image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.image img:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid rgb(66, 132, 117);
+  box-shadow: 0 0px 15px  teal;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+*{
+  padding: 0;margin: 0;
+}
+.nav{
+  display: flex;
+  align-items: center
+  ;justify-content: space-between;
+  height: 75px;
+  width: 100%;
+  background:linear-gradient(to right, rgb(5, 153, 5), rgb(138, 245, 138));
+  margin-bottom: 30px;
+  /* top: 20;
+  position: fixed;
+  z-index: 1; */
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.ad{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ad img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid rgb(96, 232, 96);
+  box-shadow: 0 0px 15px  green;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.hero-section{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+   background:linear-gradient(to right, rgb(5, 153, 5), rgb(138, 245, 138));
+   margin-bottom: 20px;
+}
+.hero-section button{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+
+}
+.products{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+   margin-bottom: 20px;
+    margin-top: 30px;
+}
+.products img{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 0 20px green;
+  height: 200px;
+  width: 250px;
+}
+
